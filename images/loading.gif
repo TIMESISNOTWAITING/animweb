@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>404 Not Found</title>
+
+    <link rel="stylesheet" href="../css/error.css">
+
+</head>
+<body class="vps">
+
+
+<div class="container oops">
+    <a href="/" class="logo"><img src="../fonts/logo.svg" alt></a>
+
+    <h1>OOPS</h1>
+</div>
+<!-- /.container -->
+
+
+<div class="container error">
+    <h2>404 Not Found</h2>
+
+
+    <p class="error-message">The page was not found !</p>
+
+    <p>You will be redirected to the homepage in 5 seconds.</p>
+    <hr>
+    <a href="/" class="btn">Go to homepage</a>
+</div>
+<!-- /.container -->
+
+
+
+<script>
+    window.setTimeout(function() {
+        window.location.href = '/';
+    }, 5000);
+</script>
+
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854" data-cf-beacon="{"rayId":"805ec97d28d21afa","version":"2023.8.0","b":1,"token":"a30c3b5df42a4fc088dbed778a2649a5","si":100}" crossorigin="anonymous"></script>
+</body>
+</html>
+
